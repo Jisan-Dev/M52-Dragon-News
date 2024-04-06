@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import MarqueeSlider from '@/components/MarqueeSlider';
+import Nav from '@/components/Nav';
 import React from 'react';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Header />
       <main className="container mx-auto font-poppins">
         <MarqueeSlider />
+        <Nav />
       </main>
     </>
   );
